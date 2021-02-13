@@ -39,6 +39,6 @@ btn.addEventListener("click", function () {
    final2 = sumFour / sumThree
    firstT.textContent = fourthI.value + " = " + final + " or " + secondI.value + " = " + final2
    
-   reset.style.display = "block"
+ 
 
 })
