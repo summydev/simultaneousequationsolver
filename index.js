@@ -37,7 +37,7 @@ btn.addEventListener("click", function () {
    console.log(sumFour)
    final = sumTwo / sumOne
    final2 = sumFour / sumThree
-   firstT.textContent = fourthI.value + " = " + final + " or " + secondI.value + " = " + final2
+   firstT.textContent = fourthI.value + " = " + final + " and " + secondI.value + " = " + final2
    
  
 
