@@ -12,7 +12,7 @@ let firstT = document.querySelector("#Itext");
 let secondT = document.querySelector("#Itext2");
 let btn = document.querySelector("button")
 let h1 = document.querySelector("h1");
-
+let reset = document.querySelector("#reset")
 
 
 btn.addEventListener("click", function () {
@@ -39,5 +39,6 @@ btn.addEventListener("click", function () {
    final2 = sumFour / sumThree
    firstT.textContent = fourthI.value + " = " + final + " or " + secondI.value + " = " + final2
    
+   reset.style.display = "block"
 
 })
